@@ -1,0 +1,77 @@
+﻿Large  Screen   == lg
+Medium  Screen  == md
+Small  Screen   == sm
+Mobile  Screen  == xs
+
+
+
+
+Grid System == 12 unit
+
+col == Column
+lg  == Large  Screen
+4 == unit
+
+
+hidden-md == اخفي العنصر ده ف الشاشه المتوسطه
+visible-lg ==  اظهر العنصر ف الشاشه الكبره بس
+clearfix == cler Flat
+ex:: <div class="clearfix visible-lg"></div> == اعمل مسح للفلوت ف الشاشه الكبيره
+col-xs-offset-3 == بيفضي 3 من المساحه الي قبلها(علي الشمال) و بتحدد ف انهي شاشه و العدد 
+
+col-lg-pull-8 == اسحب العنصر ده بمقدار 8
+col-lg-push-4 == ادفع العنصر ده بمقدار 4
+col-md-pull-0 == يعني ف الشاشه المتوسطه يفضل زي م هوا ميتسحبش
+col-md-pull-0 == يعني ف الشاشه المتوسطه يفضل زي م هوا مش يتدفع
+
+img-responsive == بيظيط الصوره علي حسب المساحه ب الظبت 
+center-block   == بيخلي الصوره تيجي ف النص 
+lead == بينسق البراجراف
+
+container-fluid == بياخد الصفحه كلها 
+container == بياخد 1170 
+text-center == بيوسط اي حاجه داحل العنصر
+=================== Navbar ================
+navbar-inverse == بيعمل عاكس للالوان بيخلي لونه غامق 
+navbar-fixed-top == بيثبت الناف مش بيختفي مع الاسكرول
+navbar-default == الالوان الفاتحه بتاعتنه
+
+
+navbar-default == بياخد ادي لما تدروس عليه تظهر العناصر دي 
+<li class="divider"></li> == بيعمل فاصل خط كده 
+navbar-right == بيحدد اتجاه الناف 
+dropdown-menu == لينكات فرعيه 
+active == بيعلم عليه
+
+
+list-unstyle (ul) == بتلغي التنسيق بتاعها الي هيا النقظ و الكلام ده 
+text-danger == لون الانبوت ب الوانه كلها 
+center-block == بيوسط الحاجه 
+img-circle == بيستخدم مع الصور علشان تبقي مدوره 
+
+
+form-inline == بينسق الفورم
+input-lg == بيكير الانبوت
+btn-lg == بيكبر الزرار
+form-control == بينسق الانبوت 
+btn btn-danger == للزرار بيكون احمر
+
+
+
+
+
+/* media  */
+@media(min-width: 767px){
+	h1{
+		color: red
+	}
+}
+max-width 767 == Mob And Tab
+
+
+
+
+
+
+
+
